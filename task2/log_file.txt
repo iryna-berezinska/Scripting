@@ -1,0 +1,20 @@
+Uptime info:
+15:19:11 up 2:52, 1 user, load average: 0,09, 0,07, 0,01
+ 
+Current users:
+15:19:11 up 2:52, 1 user, load average: 0,09, 0,07, 0,01 USER TTY FROM LOGIN@ IDLE JCPU PCPU WHAT iryna tty2 tty2 12:27 2:52m 0.01s 0.01s /usr/libexec/gnome-session-binary --session=ubuntu
+ 
+Recent logins:
+iryna tty2 Sun Apr 2 12:27 still logged in tty2 reboot system boot Sun Apr 2 12:26 still running 5.19.0-35-generic iryna tty2 Thu Mar 23 21:36 - crash (9+13:50) tty2 reboot system boot Thu Mar 23 21:35 still running 5.19.0-35-generic wtmp begins Thu Mar 23 21:35:22 2023
+ 
+TOP-10 processes by CPU usage:
+USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND iryna 1786 0.7 6.6 4499652 264788 ? Ssl 12:27 1:19 /usr/bin/gnome-shell iryna 16872 0.6 2.9 788228 115868 ? Sl 14:35 0:16 /usr/bin/nautilus --gapplication-service iryna 17926 0.6 0.7 410776 31808 ? SNsl 15:19 0:00 /usr/libexec/tracker-extract-3 root 2842 0.2 0.9 1023228 36432 ? Ssl 12:32 0:24 /usr/lib/snapd/snapd iryna 15765 0.1 1.4 577060 56592 ? Ssl 13:49 0:06 /usr/libexec/gnome-terminal-server root 1 0.0 0.3 168100 13272 ? Ss 12:26 0:02 /sbin/init auto noprompt splash root 2 0.0 0.0 0 0 ? S 12:26 0:00 [kthreadd] root 3 0.0 0.0 0 0 ? I< 12:26 0:00 [rcu_gp] root 4 0.0 0.0 0 0 ? I< 12:26 0:00 [rcu_par_gp]
+ 
+TOP-10 processes by RAM usage:
+USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND iryna 1786 0.7 6.6 4499652 264788 ? Ssl 12:27 1:19 /usr/bin/gnome-shell iryna 16872 0.6 2.9 788228 115868 ? Sl 14:35 0:16 /usr/bin/nautilus --gapplication-service iryna 2099 0.0 1.8 226724 74084 ? S 12:27 0:01 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.ONLZ21 -listen 4 -listen 5 -displayfd 6 -initfd 7 iryna 2241 0.0 1.8 551280 71836 ? Ssl 12:27 0:00 /usr/libexec/gsd-xsettings iryna 17340 0.0 1.5 2742352 62552 ? Sl 14:53 0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1076:1286:1:27:0:0:0:0 iryna 15765 0.1 1.4 577060 56592 ? Ssl 13:49 0:06 /usr/libexec/gnome-terminal-server iryna 1979 0.0 1.1 816692 46100 ? Sl 12:27 0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify root 2842 0.2 0.9 1023228 36432 ? Ssl 12:32 0:24 /usr/lib/snapd/snapd iryna 17926 0.6 0.7 410776 31808 ? SNsl 15:19 0:00 /usr/libexec/tracker-extract-3
+ 
+Virtual Memory usage:
+total used free shared buff/cache available Mem: 3,8Gi 1,7Gi 296Mi 32Mi 1,8Gi 1,8Gi Swap: 2,1Gi 25Mi 2,1Gi
+ 
+Usage of disk space:
+Filesystem Size Used Avail Use% Mounted on tmpfs 389M 2,0M 387M 1% /run /dev/sda3 20G 12G 6,2G 66% / tmpfs 1,9G 0 1,9G 0% /dev/shm tmpfs 5,0M 4,0K 5,0M 1% /run/lock /dev/sda2 512M 6,1M 506M 2% /boot/efi tmpfs 389M 112K 389M 1% /run/user/1000 /dev/sr1 4,6G 4,6G 0 100% /media/iryna/Ubuntu 22.04.2 LTS amd64 /dev/sr0 145M 145M 0 100% /media/iryna/CDROM
